@@ -1,0 +1,56 @@
+/*my CUSTOM STYLES*/
+
+.header-central {
+    width: 100%;
+    background: transparent;
+    text-align: center;
+
+    position: absolute;
+    z-index: 6;
+    border-top: 5px solid #fff;
+}
+
+.header-central img {
+    width: 169px;
+    background: #fff;
+    padding: 10px 59px 16px;
+    border-bottom-left-radius: 81px;
+    border-bottom-right-radius: 81px;
+    box-shadow: 0px 4px 4px #000;
+    box-sizing: content-box;
+}
+.select-options {
+    background: transparent;
+    border: 0;
+    border-bottom: 2px dashed #fff;
+    margin-left: 50px;
+    font-size: 47px;
+    width: 344px;
+}
+
+select.select-options:focus {
+    box-shadow: none;
+    outline-color: transparent;
+}
+
+select.select-options {}
+
+select.select-options:focus {}
+
+select.select-options option {
+    color: #4A4A4A;
+    font-size: 16px !important;
+    height: 16px;
+    font-weight: 300 !important;
+    padding: 5px;
+    min-height: 40px;
+}
+
+.dynamic-products{
+    position: absolute;
+    bottom: -19px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
