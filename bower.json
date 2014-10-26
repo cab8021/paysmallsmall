@@ -19,7 +19,8 @@
     "angular-animate": "~1.2.25",
     "angular-cookies": "~1.2.25",
     "angular-masonry-fly": "https://github.com/bimal1331/angular-masonry-fly.git",
-    "angular-deckgrid": "~0.4.4"
+    "angular-deckgrid": "~0.4.4",
+    "angular-route": "1.2.26"
   },
   "devDependencies": {
     "angular-mocks": "1.2.16",
@@ -31,9 +32,7 @@
   "moduleType": [
     "node"
   ],
-  "keywords": [
-
-  ],
+  "keywords": [],
   "authors": [
     "Ikem Okonkwo"
   ],
