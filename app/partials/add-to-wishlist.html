@@ -81,94 +81,91 @@
     </div>
 </div>
 
-<div class="gap"></div>
-
-
-
 <div class="container">
-    <div class="row" data-gutter="60">
-        <div class="col-md-4">
-            <h3>Welcome to PaySmallSmall</h3>
-            <p>Ultricies vestibulum egestas ad cras mollis nam dictumst netus leo facilisis justo maecenas molestie ipsum felis mus cubilia hendrerit vestibulum accumsan consectetur convallis vitae nec sapien diam justo lobortis aenean</p>
-            <p>Lobortis tristique interdum curae luctus mattis nisl aenean diam suscipit</p>
+    <h1 class="page-title">Add to My Goals</h1>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+    <aside class="user-profile-sidebar">
+        <div class="user-profile-avatar text-center">
+            <img src="images/amaze_300x300.jpg" alt="Image Alternative text" title="AMaze">
+            <h5>John Doe</h5>
+            <p>Member Since May 2012</p>
         </div>
+        <ul class="list user-profile-nav">
+            <li><a href="user-profile.html"><i class="fa fa-user"></i>Overview</a>
+            </li>
+            <li><a href="user-profile-settings.html"><i class="fa fa-cog"></i>Settings</a>
+            </li>
+            <li><a href="user-profile-photos.html"><i class="fa fa-camera"></i>My Travel Photos</a>
+            </li>
+            <li><a href="user-profile-booking-history.html"><i class="fa fa-clock-o"></i>Booking History</a>
+            </li>
+            <li><a href="user-profile-cards.html"><i class="fa fa-credit-card"></i>Credit/Debit Cards</a>
+            </li>
+            <li><a href="user-profile-wishlist.html"><i class="fa fa-heart-o"></i>Wishlist</a>
+            </li>
+        </ul>
+    </aside>
+</div>
+<div class="col-md-9 ">
+    <div class="">
+
         <div class="col-md-4">
-            <h3>Login</h3>
-            <form>
-                <div class="form-group form-group-icon-left"><i class="fa fa-user input-icon input-icon-show"></i>
-                    <label>Username or email</label>
-                    <input class="form-control" placeholder="e.g. johndoe@gmail.com" type="text">
-                </div>
-                <div class="form-group form-group-icon-left"><i class="fa fa-lock input-icon input-icon-show"></i>
-                    <label>Password</label>
-                    <input class="form-control" type="password" placeholder="my secret password">
-                </div>
-                <input class="btn btn-primary" type="submit" value="Sign in">
-            </form>
+            <img src="images/afro_300x300.jpg" alt=""/>
         </div>
-        <div class="col-md-4">
-            <h3>Are you New to PaySmallSmall</h3>
-            <form>
-                <div class="form-group form-group-icon-left"><i class="fa fa-user input-icon input-icon-show"></i>
-                    <label>Full Name</label>
-                    <input class="form-control" placeholder="e.g. John Doe" type="text">
+        <div class="col-md-6">
+            <h5 class="booking-item-title">2014 MacBook Pro </h5>
+            <p class="text-small">Semper a dui sapien proin dis tellus eu praesent sodales posuere cum hendrerit</p>
+            <ul class="booking-item-features booking-item-features-sign clearfix">
+                <li rel="tooltip" data-placement="top" title="" data-original-title="Adults Occupancy"><i class="fa fa-male"></i><span class="booking-item-feature-sign">x 3</span>
+                </li>
+                <li rel="tooltip" data-placement="top" title="" data-original-title="Beds"><i class="im im-bed"></i><span class="booking-item-feature-sign">x 1</span>
+                </li>
+                <li rel="tooltip" data-placement="top" title="" data-original-title="Room footage (square feet)"><i class="im im-width"></i><span class="booking-item-feature-sign">410</span>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <div class="col-md-8 product-text text-left">
+           <p>I will Save <select class="form-control"  style="width: 120px">
+               <option>$100</option>
+               <option>$200</option>
+               <option>$300</option>
+
+           </select>
+           <select class="form-control" style="width: 120px">
+               <option>Monthly</option>
+               <option>Weekly </option>
+           </select>
+               towards
+               <span>an Iphone6</span>
+           </p>
+
+
+
+            <div class="productcost">
+                <div class="actualcost">
+                    $1000
                 </div>
-                <div class="form-group form-group-icon-left"><i class="fa fa-envelope input-icon input-icon-show"></i>
-                    <label>Emai</label>
-                    <input class="form-control" placeholder="e.g. johndoe@gmail.com" type="text">
-                </div>
-                <div class="form-group form-group-icon-left"><i class="fa fa-lock input-icon input-icon-show"></i>
-                    <label>Password</label>
-                    <input class="form-control" type="password" placeholder="my secret password">
-                </div>
-                <input class="btn btn-primary" type="submit" value="Sign up for Paysmallsmall">
-            </form>
+                <h3 class="booking-item-price">4312</h3>
+                <span>/month</span>
+            </div>
+            <h3 class="btn btn-primary set-goal">Set Goal</h3>
+
         </div>
     </div>
+
+
+
 </div>
 
 
-<!--modal for login-->
-<div class="container" style="display: none" id="login">
-    <div class="row">
-
-        <div class="main">
-
-            <h3>Please Log In, or <a href="#">Sign Up</a></h3>
-            <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-6">
-                    <a href="#" class="btn btn-lg btn-primary btn-block">Facebook</a>
-                </div>
-                <div class="col-xs-6 col-sm-6 col-md-6">
-                    <a href="#" class="btn btn-lg btn-info btn-block">Google</a>
-                </div>
-            </div>
-            <div class="login-or">
-                <hr class="hr-or">
-                <span class="span-or">or</span>
-            </div>
-
-            <form role="form">
-                <div class="form-group">
-                    <label for="inputUsernameEmail">Username or email</label>
-                    <input type="text" class="form-control" id="inputUsernameEmail">
-                </div>
-                <div class="form-group">
-                    <a class="pull-right" href="#">Forgot password?</a>
-                    <label for="inputPassword">Password</label>
-                    <input type="password" class="form-control" id="inputPassword">
-                </div>
-                <div class="checkbox pull-right">
-                    <label>
-                        <input type="checkbox">
-                        Remember me </label>
-                </div>
-                <button type="submit" class="btn btn btn-primary">
-                    Log In
-                </button>
-            </form>
-
-        </div>
-
-    </div>
 </div>
+</div>
+
+
+

@@ -1,7 +1,9 @@
 var payss = angular.module("payss.controllers", []);
 payss.controller("homeCtrl",['$scope', function($scope) {
     $scope.hello = "hello from the angular js app.js file"
-
+   $scope.login = function(){
+       $("#login").leanModal();
+   }
 
     $(function() {
         $('#ri-grid').gridrotator({
