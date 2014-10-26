@@ -12,12 +12,13 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
     <!-- /GOOGLE FONTS -->
+    <!-- build:css styles/app.css -->
     <link rel="stylesheet" href="styles/bootstrap.css">
     <link rel="stylesheet" href="styles/font-awesome.css">
     <link rel="stylesheet" href="styles/icomoon.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/mystyles.css">
-    <script src="vendor/modernizr.js"></script>
+    <!-- endbuild -->
 
 </head>
 
@@ -97,7 +98,8 @@
         </div>
     </div>
 </footer>
-
+    <!-- build:js({.tmp,app}) scripts/vendor.js -->
+<script src="vendor/modernizr.js"></script>
 <script src="vendor/jquery.js"></script>
 <script src="vendor/bootstrap.js"></script>
 <script src="vendor/slimmenu.js"></script>
@@ -119,14 +121,17 @@
 <script src="vendor/gridrotator.js"></script>
 <script src="vendor/custom.js"></script>
 <script src="vendor/switcher.js"></script>
-
+    <!-- endbuild -->
 <!--stack includes-->
-<script src="angular/angular.min.js.map"></script>
+    <!-- build:js({bower_components, app}) scripts/angular-vendor.js -->
     <script src="angular/angular.min.js"></script>
     <script src="angular-resource/angular-resource.min.js"></script>
     <script src="angular-route/angular-route.js"></script>
+    <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="scripts/controllers.js"></script>
     <script src="scripts/app.js"></script>
+    <!-- endbuild -->
 </div>
 </body>
 

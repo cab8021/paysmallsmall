@@ -339,7 +339,7 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             '*.html',
-            'modules/{,*/}/templates/*.html',
+            'partials/*.html',
             'images/*',
             'fonts/*'
           ]
@@ -421,7 +421,7 @@ module.exports = function (grunt) {
    //'wiredep',
     'useminPrepare',
    // 'concurrent:dist',
-    'autoprefixer',
+   // 'autoprefixer',
     'concat',
     //'ngmin',
     'copy:dist',
