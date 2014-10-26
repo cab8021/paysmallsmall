@@ -2416,6 +2416,7 @@ footer#main-footer {
     padding: 60px 0 30px 0;
     color: #e6e6e6;
     font-size: 11px;
+    margin-top: 68px !important;
     line-height: 1.4em;
 }
 footer#main-footer .logo {
